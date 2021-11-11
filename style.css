@@ -1,0 +1,89 @@
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.note
+{
+    font-size: 15px;
+    color: red;
+}
+
+body{
+    background-size: cover;
+}
+
+.div_speed
+{
+    float: left;
+}
+
+.div_speed_img 
+{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed
+{
+    font-size: 23px;
+    margin: 15px;
+}
+
+.div_volume
+{
+    float: right;
+}
+
+.div_volume_img 
+{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#volume
+{
+    font-size: 23px;
+    margin: 15px;
+}
+
+.heading:hover
+{
+    background-image: linear-gradient(to right top, #505253, #202122, #cbcfd1, #151616, #696c6e);
+}
+
+#speed:hover
+{
+    background-image: linear-gradient(to top right, #03fcce, #cbcfd1, #0390fc, #0352fc);
+}
+
+#volume:hover
+{
+    background-image: linear-gradient(to right top, #03fcce, #cbcfd1, #0390fc, #0352fc);
+}
+
+.play_button
+{
+    width: 130px;
+    font-size: 25px;
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.pause_button{
+    width: 130px;
+    font-size: 25px;
+}
+
+.stop_button
+{
+    width: 130px;
+    font-size: 25px;
+}
